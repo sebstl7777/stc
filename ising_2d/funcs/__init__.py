@@ -11,7 +11,7 @@ from .mcmc import (
     mcmc_ising_baseline,
     calculate_mcmc_observables,
 )
-from .stc import run_stc_ising
+from .stc import run_stc_ising, run_stc_comb_ising
 
 __all__ = [
     "generate_rows",
@@ -23,4 +23,5 @@ __all__ = [
     "mcmc_ising_baseline",
     "calculate_mcmc_observables",
     "run_stc_ising",
+    "run_stc_comb_ising",
 ]
